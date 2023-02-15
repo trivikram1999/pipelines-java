@@ -9,9 +9,6 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-variables:
-- group: demo
-
 steps:
 - script: echo $(user) # uses macro syntax
 - script: echo $(pass)
